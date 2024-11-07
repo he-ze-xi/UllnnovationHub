@@ -1,9 +1,9 @@
-﻿<ResourceDictionary xmlns:attached="clr-namespace:UllnnovationHub.ToolKIt.Controls.Attached" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+﻿<ResourceDictionary xmlns:attached="clr-namespace:UllnnovationHub.ToolKIt.Themes.Attached" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ColorStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
-    
-    <Style TargetType="{x:Type Button}" x:Key="BaseButtonStyle">
+
+    <Style x:Key="BaseButtonStyle" TargetType="{x:Type Button}" >
         <Setter Property="FocusVisualStyle" Value="{x:Null}" />
         <Setter Property="attached:Corner.Value" Value="2" />
         <Setter Property="Background" Value="{StaticResource ThemeColor}" />
@@ -28,8 +28,7 @@
                             <Setter TargetName="border" Property="Opacity" Value="0.7" />
                         </Trigger>
                         <Trigger Property="IsEnabled" Value="False">
-                            <Setter TargetName="border" Property="Background" Value="{StaticResource GrayColor}" />
-                            <Setter TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource GrayColor1}" />
+                            <Setter TargetName="border" Property="Opacity" Value="0.5" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

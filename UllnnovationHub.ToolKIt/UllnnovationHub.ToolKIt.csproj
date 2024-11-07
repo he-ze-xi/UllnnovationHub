@@ -10,10 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Page Update="Controls\Button\Button.xaml">
+    <Page Update="Themes\Button\Button.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Update="Themes\Generic.xaml">
+    <Page Update="Generic.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <Generator>XamlIntelliSenseFileGenerator</Generator>
     </Page>
