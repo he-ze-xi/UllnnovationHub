@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UllnnovationHub.ToolKIt", "UllnnovationHub.ToolKIt\UllnnovationHub.ToolKIt.csproj", "{56FBED92-92F4-457F-B436-ABBD4320312B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UllnnovationHub.Samples", "UllnnovationHub.Samples\UllnnovationHub.Samples.csproj", "{D350D2B1-26EE-4F48-BA2E-17ACE01AA938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FBED92-92F4-457F-B436-ABBD4320312B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FBED92-92F4-457F-B436-ABBD4320312B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FBED92-92F4-457F-B436-ABBD4320312B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FBED92-92F4-457F-B436-ABBD4320312B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D350D2B1-26EE-4F48-BA2E-17ACE01AA938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D350D2B1-26EE-4F48-BA2E-17ACE01AA938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D350D2B1-26EE-4F48-BA2E-17ACE01AA938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D350D2B1-26EE-4F48-BA2E-17ACE01AA938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FCAD529-4EBC-45EA-A2E3-796C7D1DDBBA}
+	EndGlobalSection
+EndGlobal
