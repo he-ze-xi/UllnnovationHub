@@ -4,14 +4,14 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
 	  <RestorePackagesPath>.\packages</RestorePackagesPath>
-	  <Platforms>AnyCPU;</Platforms>
+	  <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UllnnovationHub.ToolKIt">
-      <HintPath>..\UllnnovationHub.ToolKIt\bin\Debug\net6.0-windows\UllnnovationHub.ToolKIt.dll</HintPath>
+      <HintPath>..\UllnnovationHub.ToolKIt\bin\x64\Debug\net6.0-windows\UllnnovationHub.ToolKIt.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

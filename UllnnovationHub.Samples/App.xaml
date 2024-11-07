@@ -6,7 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/UllnnovationHub.ToolKIt;Component/Themes/Genric.xaml" />
+                <ResourceDictionary Source="/UllnnovationHub.ToolKIt;Component/Themes/Generic.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

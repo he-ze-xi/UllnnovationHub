@@ -4,7 +4,7 @@
 
 
     <Style TargetType="{x:Type local:Button}">
-        <Setter Property="Background" Value="White"/>
+        <Setter Property="Background" Value="Green"/>
         <Setter Property="Foreground" Value="Red" />
         <Setter Property="Cursor" Value="Hand" />
         <Setter Property="TextBlock.FontWeight" Value="Medium" />

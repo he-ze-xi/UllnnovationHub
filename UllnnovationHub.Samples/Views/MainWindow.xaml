@@ -7,7 +7,7 @@
     <Grid>
         <TabControl>
             <TabItem Header="测试01">
-                <UIHControls:Button />
+                <Button Content="你好" Width="100" Height="50"/>
             </TabItem>
         </TabControl>
     </Grid>
