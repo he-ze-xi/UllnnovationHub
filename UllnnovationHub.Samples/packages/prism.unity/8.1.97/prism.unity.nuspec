@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Prism.Unity</id>
+    <version>8.1.97</version>
+    <authors>Brian Lagunas,Dan Siegel</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>prism-logo.png</icon>
+    <projectUrl>https://github.com/PrismLibrary/Prism</projectUrl>
+    <description>Use these extensions to build Prism applications based on Unity.</description>
+    <releaseNotes>https://github.com/PrismLibrary/Prism/releases/tag/v</releaseNotes>
+    <tags>prism unity mvvm wpf xaml</tags>
+    <repository type="git" url="https://github.com/PrismLibrary/Prism" commit="15140a61976d0a224cd6ebb9ee1f7ca63db02b47" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Prism.Wpf" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Unity.Container" version="5.11.11" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7">
+        <dependency id="Prism.Wpf" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Unity.Container" version="5.11.11" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Prism.Wpf" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Unity.Container" version="5.11.11" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="Prism.Wpf" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Unity.Container" version="5.11.11" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.7" />
+    </frameworkReferences>
+  </metadata>
+</package>

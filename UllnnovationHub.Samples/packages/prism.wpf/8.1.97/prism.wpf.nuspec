@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Prism.Wpf</id>
+    <version>8.1.97</version>
+    <authors>Brian Lagunas,Dan Siegel</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>prism-logo.png</icon>
+    <projectUrl>https://github.com/PrismLibrary/Prism</projectUrl>
+    <description>Prism is a fully open source version of the Prism guidance originally produced by Microsoft Patterns &amp; Practices. Prism provides an implementation of a collection of design patterns that are helpful in writing well structured, maintainable, and testable XAML applications, including MVVM, dependency injection, commanding, event aggregation, and more. Prism's core functionality is a shared library targeting the .NET Framework and .NET Standard. Features that need to be platform specific are implemented in the respective libraries for the target platform (WPF, Uno Platform, and Xamarin Forms).
+
+Prism.Wpf helps you more easily design and build rich, flexible, and easy to maintain Windows Presentation Foundation (WPF) desktop applications. This library provides user interface composition as well as modularity support.</description>
+    <releaseNotes>https://github.com/PrismLibrary/Prism/releases/tag/v</releaseNotes>
+    <tags>prism mvvm xaml wpf</tags>
+    <repository type="git" url="https://github.com/PrismLibrary/Prism" commit="15140a61976d0a224cd6ebb9ee1f7ca63db02b47" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Prism.Core" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.31" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7">
+        <dependency id="Prism.Core" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.31" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Prism.Core" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.31" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="Prism.Core" version="8.1.97" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.31" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.7" />
+    </frameworkReferences>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6.1, .NETFramework4.7" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

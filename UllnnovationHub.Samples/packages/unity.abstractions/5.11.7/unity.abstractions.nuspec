@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Unity.Abstractions</id>
+    <version>5.11.7</version>
+    <authors>Unity Open Source Project</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/unitycontainer/abstractions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/unitycontainer</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/12849707</iconUrl>
+    <description>Unity Container Public Abstractions</description>
+    <releaseNotes>This package is distributed as .NET Standard 1.0, 2.0, .Net Core 1.0, 2.0, and .NET 4.0, 4.5, 4.6, and 4.7</releaseNotes>
+    <copyright>Copyright © .NET Foundation and Contributors. All Rights Reserved</copyright>
+    <tags>Unity Container unitycontainer Microsoft.Practices.Unity IoC</tags>
+    <repository type="git" url="https://github.com/unitycontainer/abstractions" commit="096276e2cb53389ebcbe7ec08940b2757b97bf2f" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="Microsoft.NETCore.App" version="1.0.5" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

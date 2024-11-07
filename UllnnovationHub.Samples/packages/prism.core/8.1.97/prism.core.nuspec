@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Prism.Core</id>
+    <version>8.1.97</version>
+    <authors>Brian Lagunas,Dan Siegel</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>prism-logo.png</icon>
+    <projectUrl>https://github.com/PrismLibrary/Prism</projectUrl>
+    <description>Prism is a fully open source version of the Prism guidance originally produced by Microsoft Patterns &amp; Practices.  Prism provides an implementation of a collection of design patterns that are helpful in writing well structured and maintainable XAML applications, including MVVM, dependency injection, commanding, event aggregation, and more. Prism's core functionality is a shared code base in a Portable Class Library targeting these platforms; WPF, and Xamarin Forms. Features that need to be platform specific are implemented in the respective libraries for the target platform.</description>
+    <releaseNotes>https://github.com/PrismLibrary/Prism/releases/tag/v</releaseNotes>
+    <tags>prism wpf xamarin mvvm xaml</tags>
+    <repository type="git" url="https://github.com/PrismLibrary/Prism" commit="15140a61976d0a224cd6ebb9ee1f7ca63db02b47" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7" />
+      <group targetFramework="net5.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
