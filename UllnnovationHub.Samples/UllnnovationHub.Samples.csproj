@@ -9,4 +9,9 @@
   <ItemGroup>
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UllnnovationHub.ToolKIt">
+      <HintPath>..\UllnnovationHub.ToolKIt\bin\Debug\net6.0-windows\UllnnovationHub.ToolKIt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

@@ -9,4 +9,13 @@
 	  <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Page Update="Controls\Button\Button.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Update="Themes\Generic.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
 </Project>
