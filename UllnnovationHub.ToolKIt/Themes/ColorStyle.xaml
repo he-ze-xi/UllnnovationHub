@@ -18,5 +18,9 @@
     <!--  灰色1  -->
     <SolidColorBrush x:Key="GrayColor">#B3B2B7</SolidColorBrush>
     <SolidColorBrush x:Key="GrayColor1">#CCCCCC</SolidColorBrush>
-    
+
+    <!--  全白 透明色  -->
+    <SolidColorBrush x:Key="TransparentColor" Color="#00FFFFFF" />
+    <!--  全黑 透明色  -->
+    <SolidColorBrush x:Key="TransparentBlackColor" Color="#00000000" />
 </ResourceDictionary>

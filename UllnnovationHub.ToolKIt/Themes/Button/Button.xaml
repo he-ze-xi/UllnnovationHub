@@ -3,7 +3,7 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ColorStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
 
-    <Style x:Key="BaseButtonStyle" TargetType="{x:Type Button}" >
+    <Style x:Key="BaseButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="FocusVisualStyle" Value="{x:Null}" />
         <Setter Property="attached:Corner.Value" Value="2" />
         <Setter Property="Background" Value="{StaticResource ThemeColor}" />
@@ -35,4 +35,7 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+    <!--应用全局样式变化-->
+    <Style x:Key="{x:Type Button}" BasedOn="{StaticResource BaseButtonStyle}" TargetType="{x:Type Button}" />
 </ResourceDictionary>
