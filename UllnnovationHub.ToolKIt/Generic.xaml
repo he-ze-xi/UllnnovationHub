@@ -3,5 +3,6 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ColorStyle.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Button/Button.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/TabControl/TabControl.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/GroupBox/GroupBox.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

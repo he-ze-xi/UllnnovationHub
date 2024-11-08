@@ -10,7 +10,7 @@
         <Setter Property="Width" Value="80" />
         <Setter Property="Height" Value="40" />
         <Setter Property="FontSize" Value="16" />
-        <Setter Property="Foreground" Value="#A8A8AA" />
+        <Setter Property="Foreground" Value="Black" />
         <Setter Property="Background" Value="White" />
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
@@ -19,7 +19,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type TabItem}">
                     <Grid x:Name="templateRoot" Margin="{TemplateBinding Padding}" Background="{StaticResource TransparentColor}" Cursor="Hand" SnapsToDevicePixels="true">
-                        <ContentPresenter x:Name="contentPresenter" Grid.Column="1" HorizontalAlignment="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}" VerticalAlignment="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}" ContentSource="Header" Focusable="False" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        <ContentPresenter x:Name="contentPresenter" HorizontalAlignment="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}" VerticalAlignment="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}" ContentSource="Header" Focusable="False" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsSelected" Value="True">
@@ -31,7 +31,7 @@
                                 <Condition Property="IsSelected" Value="False" />
                                 <Condition Property="IsMouseOver" Value="True" />
                             </MultiTrigger.Conditions>
-                            <Setter Property="Foreground" Value="#555555" />
+                            <Setter Property="Foreground" Value="Black" />
                         </MultiTrigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

@@ -4,48 +4,42 @@
         xmlns:attached="clr-namespace:UllnnovationHub.ToolKIt.Themes.Attached;assembly=UllnnovationHub.ToolKIt"
         Title="{Binding Title}" Height="800" Width="1000">
     <Grid>
-        <TabControl>
-            <TabItem Header="按钮">
+        <TabControl TabStripPlacement="Left">
+            <TabItem Header="Button" Width="150">
                 <ScrollViewer HorizontalScrollBarVisibility="Auto">
-                    <UniformGrid>
-                        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0">
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-                                <Button Margin="10" Content="Main Button" />
-                                <Button Margin="10" Background="#F76E52" Content="Error Button"/>
-                                <Button Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button"/>
-                                <Button Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button"/>
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-                                <Button IsEnabled="False" Margin="10" Content="Main Button" />
-                                <Button IsEnabled="False" Margin="10" Background="#F76E52" Content="Error Button" />
-                                <Button IsEnabled="False" Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" Style="{StaticResource BaseButtonStyle}" />
-                                <Button IsEnabled="False" Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" Style="{StaticResource BaseButtonStyle}" />
-                            </StackPanel>
-                        </StackPanel>
-                    </UniformGrid>
-                   
-
-                </ScrollViewer>
-            </TabItem>
-            <TabItem Header="按钮">
-                <ScrollViewer HorizontalScrollBarVisibility="Auto">
-                    <UniformGrid>
-                        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0">
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="5">
+                            <StackPanel Orientation="Horizontal">
                                 <Button Margin="10" Content="Main Button" />
                                 <Button Margin="10" Background="#F76E52" Content="Error Button" />
                                 <Button Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" />
                                 <Button Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" />
                             </StackPanel>
-                            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                            <StackPanel Orientation="Horizontal">
                                 <Button IsEnabled="False" Margin="10" Content="Main Button" />
                                 <Button IsEnabled="False" Margin="10" Background="#F76E52" Content="Error Button" />
                                 <Button IsEnabled="False" Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" Style="{StaticResource BaseButtonStyle}" />
                                 <Button IsEnabled="False" Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" Style="{StaticResource BaseButtonStyle}" />
                             </StackPanel>
                         </StackPanel>
-                    </UniformGrid>
+                    </StackPanel>
+                   
 
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="GroupBox" Width="150">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                    <UniformGrid Columns="2" Rows="2">
+                        <GroupBox Header="测试" Margin="10" Style="{StaticResource BaseGroupBoxStyle}">
+
+                        </GroupBox>
+                        <GroupBox Header="测试" Margin="10" Style="{StaticResource SqureShadowHeaderGroupBoxStyle}">
+
+                        </GroupBox>
+                        <GroupBox Header="测试" Margin="10" Style="{StaticResource RoundedShadowHeaderGroupBoxStyle}">
+
+                        </GroupBox>
+                    </UniformGrid>
 
                 </ScrollViewer>
             </TabItem>

@@ -8,3 +8,4 @@
 
 ### 3.任务(截至11.11日)
 1. 写一个自定义进度滑动条、一个带有图标的按钮(图标在左侧部位)。
+2. Combox、GroupBox、CheckBox、ListBox、ListView、TextBox、RadioButton
