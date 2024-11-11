@@ -1,7 +1,10 @@
 ﻿<Window x:Class="UllnnovationHub.Samples.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:prism="http://prismlibrary.com/" prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/" 
+        prism:ViewModelLocator.AutoWireViewModel="True"
         xmlns:attached="clr-namespace:UllnnovationHub.ToolKIt.Themes.Attached;assembly=UllnnovationHub.ToolKIt"
+        xmlns:separator="clr-namespace:UllnnovationHub.ToolKIt.Themes.Separator;assembly=UllnnovationHub.ToolKIt"
         Title="{Binding Title}" Height="800" Width="1000">
     <Grid>
         <TabControl TabStripPlacement="Left">
@@ -23,10 +26,11 @@
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>
-                   
+
 
                 </ScrollViewer>
             </TabItem>
+            
             <TabItem Header="GroupBox" Width="150">
                 <ScrollViewer HorizontalScrollBarVisibility="Auto">
                     <UniformGrid Columns="2" Rows="2">
@@ -42,6 +46,35 @@
                     </UniformGrid>
 
                 </ScrollViewer>
+            </TabItem>
+            
+            <TabItem Header="tabControl" Width="150">
+            </TabItem>
+
+            <TabItem Header="RadioButton" Width="150">
+            </TabItem>
+            <TabItem Header="SwitchButton" Width="150">
+            </TabItem>
+            <TabItem Header="IconButton" Width="150">
+            </TabItem>
+            <TabItem Header="TextBox" Width="150">
+            </TabItem>
+            <TabItem Header="CheckBox" Width="150">
+            </TabItem>
+            <TabItem Header="DateTimePicker" Width="150">
+            </TabItem>
+            <TabItem Header="Separator" Width="150">
+                <UniformGrid Rows="2" Columns="2">
+                    <separator:HorizontolSeparator />
+                    <separator:VerticalSeparator />
+                    <separator:VerticalSeparator Background="Green" />
+                    <separator:HorizontolSeparator Background="Green" />
+                </UniformGrid>
+                
+            </TabItem>
+            <TabItem Header="Expander" Width="150">
+            </TabItem>
+            <TabItem Header="Card" Width="150">
             </TabItem>
         </TabControl>
     </Grid>

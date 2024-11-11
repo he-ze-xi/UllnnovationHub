@@ -7,6 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 	  <RestorePackagesPath>.\packages</RestorePackagesPath>
 	  <Platforms>AnyCPU;x64</Platforms>
+	  <BaseOutputPath></BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

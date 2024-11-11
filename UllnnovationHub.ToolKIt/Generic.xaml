@@ -4,5 +4,8 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Button/Button.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/TabControl/TabControl.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/GroupBox/GroupBox.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Separator/HorizontolSeparator.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Separator/VerticalSeparator.xaml" />
+
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

@@ -11,7 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UllnnovationHub.ToolKIt">
-      <HintPath>..\UllnnovationHub.ToolKIt\bin\x64\Debug\net6.0-windows\UllnnovationHub.ToolKIt.dll</HintPath>
+      <HintPath>..\RefDll\UllnnovationHub.ToolKIt.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
