@@ -2,7 +2,6 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--  主题色  -->
     <SolidColorBrush x:Key="ThemeColor">#5B95FF</SolidColorBrush>
-
     <!--  蓝色  -->
     <SolidColorBrush x:Key="BlueColor">#326CF3</SolidColorBrush>
 

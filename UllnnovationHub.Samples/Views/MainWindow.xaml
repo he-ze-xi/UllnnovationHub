@@ -3,32 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:prism="http://prismlibrary.com/" 
         prism:ViewModelLocator.AutoWireViewModel="True"
-        xmlns:attached="clr-namespace:UllnnovationHub.ToolKIt.Themes.Attached;assembly=UllnnovationHub.ToolKIt"
-        xmlns:separator="clr-namespace:UllnnovationHub.ToolKIt.Themes.Separator;assembly=UllnnovationHub.ToolKIt"
+        xmlns:attached="clr-namespace:UllnnovationHub.ToolKIt.Attached;assembly=UllnnovationHub.ToolKIt"
+        xmlns:UI="clr-namespace:UllnnovationHub.ToolKIt.UI;assembly=UllnnovationHub.ToolKIt"
         Title="{Binding Title}" Height="800" Width="1000">
     <Grid>
         <TabControl TabStripPlacement="Left">
             <TabItem Header="Button" Width="150">
-                <ScrollViewer HorizontalScrollBarVisibility="Auto">
-                    <StackPanel Orientation="Vertical">
-                        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="5">
-                            <StackPanel Orientation="Horizontal">
-                                <Button Margin="10" Content="Main Button" />
-                                <Button Margin="10" Background="#F76E52" Content="Error Button" />
-                                <Button Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" />
-                                <Button Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" />
-                            </StackPanel>
-                            <StackPanel Orientation="Horizontal">
-                                <Button IsEnabled="False" Margin="10" Content="Main Button" />
-                                <Button IsEnabled="False" Margin="10" Background="#F76E52" Content="Error Button" />
-                                <Button IsEnabled="False" Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" Style="{StaticResource BaseButtonStyle}" />
-                                <Button IsEnabled="False" Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" Style="{StaticResource BaseButtonStyle}" />
-                            </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Button Margin="10" Content="Main Button" />
+                            <Button Margin="10" Background="#F76E52" Content="Error Button" />
+                            <Button Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" />
+                            <Button Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button IsEnabled="False" Margin="10" Content="Main Button" />
+                            <Button IsEnabled="False" Margin="10" Background="#F76E52" Content="Error Button" />
+                            <Button IsEnabled="False" Margin="10" attached:Corner.Value="10" Background="{StaticResource GreenColor}" Content="Info Button" Style="{StaticResource BaseButtonStyle}" />
+                            <Button IsEnabled="False" Margin="10" attached:Corner.Value="5" Background="{StaticResource YellowColor}" Content="Warn Button" Style="{StaticResource BaseButtonStyle}" />
                         </StackPanel>
                     </StackPanel>
-
-
-                </ScrollViewer>
+                </StackPanel>
             </TabItem>
             
             <TabItem Header="GroupBox" Width="150">
@@ -48,10 +44,74 @@
                 </ScrollViewer>
             </TabItem>
             
-            <TabItem Header="tabControl" Width="150">
+            <TabItem Header="TabControl" Width="150">
+                <UniformGrid Columns="2" Rows="2">
+                    <TabControl TabStripPlacement="Top">
+                        <TabItem Header="测试1">
+                            <TextBlock Text="内容1" />
+                        </TabItem>
+                        <TabItem Header="测试2">
+                            <TextBlock Text="内容2" />
+                        </TabItem>
+                        <TabItem Header="测试3">
+                            <TextBlock Text="内容3" />
+                        </TabItem>
+                    </TabControl>
+
+                    <TabControl TabStripPlacement="Left">
+                        <TabItem Header="测试1">
+                            <TextBlock Text="内容1" />
+                        </TabItem>
+                        <TabItem Header="测试2">
+                            <TextBlock Text="内容2" />
+                        </TabItem>
+                        <TabItem Header="测试3">
+                            <TextBlock Text="内容3" />
+                        </TabItem>
+                    </TabControl>
+
+                    <TabControl TabStripPlacement="Right">
+                        <TabItem Header="测试1">
+                            <TextBlock Text="内容1" />
+                        </TabItem>
+                        <TabItem Header="测试2">
+                            <TextBlock Text="内容2" />
+                        </TabItem>
+                        <TabItem Header="测试3">
+                            <TextBlock Text="内容3" />
+                        </TabItem>
+                    </TabControl>
+
+                    <TabControl TabStripPlacement="Bottom">
+                        <TabItem Header="测试1">
+                            <TextBlock Text="测试1" />
+                        </TabItem>
+                        <TabItem Header="测试2">
+                            <TextBlock Text="测试2" />
+                        </TabItem>
+                        <TabItem Header="测试3">
+                            <TextBlock Text="测试3" />
+                        </TabItem>
+                    </TabControl>
+                </UniformGrid>
             </TabItem>
 
             <TabItem Header="RadioButton" Width="150">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Margin="5">
+                        <StackPanel Orientation="Vertical">
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" attached:Icon.Geometry="M512 960c-247.039484 0-448-200.960516-448-448S264.960516 64 512 64 960 264.960516 960 512 759.039484 960 512 960zM512 128c-211.744443 0-384 172.255557-384 384s172.255557 384 384 384 384-172.255557 384-384S723.744443 128 512 128z" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                        </StackPanel>
+                        
+
+                    </StackPanel>
+                </StackPanel>
             </TabItem>
             <TabItem Header="SwitchButton" Width="150">
             </TabItem>
@@ -65,16 +125,48 @@
             </TabItem>
             <TabItem Header="Separator" Width="150">
                 <UniformGrid Rows="2" Columns="2">
-                    <separator:HorizontolSeparator />
-                    <separator:VerticalSeparator />
-                    <separator:VerticalSeparator Background="Green" />
-                    <separator:HorizontolSeparator Background="Green" />
+                    <UI:HorizontolSeparator />
+                    <UI:VerticalSeparator />
+                    <UI:VerticalSeparator Background="Green" />
+                    <UI:HorizontolSeparator Background="Green" />
                 </UniformGrid>
                 
             </TabItem>
             <TabItem Header="Expander" Width="150">
+                <UniformGrid Columns="2" Rows="2">
+                    <Expander Header="Expander" IsExpanded="True" Grid.Row="0" Grid.Column="0">
+                        <StackPanel>
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" attached:Icon.Geometry="M512 960c-247.039484 0-448-200.960516-448-448S264.960516 64 512 64 960 264.960516 960 512 759.039484 960 512 960zM512 128c-211.744443 0-384 172.255557-384 384s172.255557 384 384 384 384-172.255557 384-384S723.744443 128 512 128z" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                        </StackPanel>
+                    </Expander>
+
+                    <Expander Header="Expander" IsExpanded="False" Grid.Row="1" Grid.Column="0">
+                        <StackPanel>
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                            <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
+                        </StackPanel>
+                    </Expander>
+                </UniformGrid>
             </TabItem>
             <TabItem Header="Card" Width="150">
+                <UniformGrid Columns="2" Rows="2">
+                    <UI:Card Margin="20"/>
+                    <UI:Card Margin="20" />
+                    <UI:Card Margin="20" />
+                    <UI:Card Margin="20" />
+                </UniformGrid>
             </TabItem>
         </TabControl>
     </Grid>

@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Page Update="Themes\Button\Button.xaml">
+    <Page Update="Themes\Button.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
     <Page Update="Generic.xaml">

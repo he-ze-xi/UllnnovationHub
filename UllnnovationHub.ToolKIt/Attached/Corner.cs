@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace UllnnovationHub.ToolKIt.Themes.Attached
+namespace UllnnovationHub.ToolKIt.Attached
 {
     /// <summary>
     /// 附加属性，用于控件的圆角

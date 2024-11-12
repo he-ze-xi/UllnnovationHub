@@ -13,14 +13,13 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UllnnovationHub.ToolKIt.Themes.Separator
+namespace UllnnovationHub.ToolKIt.UI
 {
-   
-    public class HorizontolSeparator : Control
+    public class Card : ContentControl
     {
-        static HorizontolSeparator()
+        static Card()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(HorizontolSeparator), new FrameworkPropertyMetadata(typeof(HorizontolSeparator)));
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(Card), new FrameworkPropertyMetadata(typeof(Card)));
         }
     }
 }
