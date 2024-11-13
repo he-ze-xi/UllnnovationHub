@@ -28,6 +28,7 @@ xmlns:UI="clr-namespace:UllnnovationHub.ToolKIt.UI;assembly=UllnnovationHub.Tool
 
 如果你觉得本框架还不错的话，欢迎赞助一杯咖啡
 
-![](https://github.com/he-ze-xi/UllnnovationHub/blob/master/README.assets/wechat.png)
+![](./README.assets/wechat.png)
 
-![](https://github.com/he-ze-xi/UllnnovationHub/blob/master/README.assets/zhifubao.png)
+![](./README.assets/zhifubao.png)
+
