@@ -2,9 +2,6 @@
 
 一个寻求和分享设计灵感的开源WPF应用程序UI库(注：目前项目正在开发中)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/jamesnet214/xamldesignwpf.svg)](https://github.com/he-ze-xi/UllnnovationHub/stargazers)
-
 ### 1.项目概述
 UllnnovationHub，旨在寻求和分享WPF UI设计灵感。它提供了众多主题的WPF原生控件和自定义控件，未来还将继续加入更多的控件样式。
 
@@ -31,6 +28,6 @@ xmlns:UI="clr-namespace:UllnnovationHub.ToolKIt.UI;assembly=UllnnovationHub.Tool
 
 如果你觉得本框架还不错的话，欢迎赞助一杯咖啡
 
-![](.\README.assets\image-20241113205006149-17315033741301.png)
+![](https://github.com/he-ze-xi/UllnnovationHub/tree/master/README.assets/wechat.png)
 
-![](.\README.assets\image-20241113205018657-17315033776202.png)
+![](https://github.com/he-ze-xi/UllnnovationHub/tree/master/README.assets/zhifubao.png)
