@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{6F0E2600-257E-46DF-94A2-91B5EDA87C95}"
+	ProjectSection(SolutionItems) = preProject
+		README.assets\image-20241113205006149.png = README.assets\image-20241113205006149.png
+		README.assets\image-20241113205018657.png = README.assets\image-20241113205018657.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F0E2600-257E-46DF-94A2-91B5EDA87C95} = {B5782DDF-FE37-4A9E-A91B-C25FCC34BF37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FCAD529-4EBC-45EA-A2E3-796C7D1DDBBA}
