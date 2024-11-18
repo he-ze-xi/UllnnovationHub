@@ -109,8 +109,6 @@
                                 <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
                                 <RadioButton Style="{StaticResource MenuRadioButtomStyle}" Content="111" />
                             </StackPanel>
-
-
                         </StackPanel>
                     </StackPanel>
                 </TabItem>
@@ -119,8 +117,25 @@
                 <TabItem Header="IconButton" Width="150">
                 </TabItem>
                 <TabItem Header="TextBox" Width="150">
+                    <UniformGrid Columns="2" Rows="2">
+                        <UI:UTextBox Width="200" Height="50" />
+                        <UI:UTextBox Placeholder="输入内容"  Width="200" Height="50" />
+                    </UniformGrid>
+                </TabItem>
+                <TabItem Header="PasswordBox" Width="150">
+                    <UniformGrid Columns="2" Rows="2">
+                        <PasswordBox Width="200" Height="50" attached:Corner.Value="10"/>
+                        <PasswordBox Width="200" Height="50" />
+                    </UniformGrid>
                 </TabItem>
                 <TabItem Header="CheckBox" Width="150">
+                    <StackPanel>
+                        <CheckBox Content="CheckBox 1" Margin="5" IsChecked="false" IsThreeState="True" />
+                        <CheckBox Content="CheckBox 1" Margin="5" IsChecked="True" IsThreeState="True" />
+                        <CheckBox Content="CheckBox 1" Margin="5" IsChecked="True" IsThreeState="False" />
+                        <CheckBox Content="CheckBox 1" Margin="5" IsChecked="False" IsThreeState="False" />
+                    </StackPanel>
+
                 </TabItem>
                 <TabItem Header="DateTimePicker" Width="150">
                 </TabItem>
@@ -128,8 +143,8 @@
                     <UniformGrid Rows="2" Columns="2">
                         <UI:HorizontolSeparator />
                         <UI:VerticalSeparator />
-                        <UI:VerticalSeparator Background="Green" />
-                        <UI:HorizontolSeparator Background="Green" />
+                        <UI:VerticalSeparator Background="Blue" />
+                        <UI:HorizontolSeparator Background="Blue" />
                     </UniformGrid>
 
                 </TabItem>
@@ -171,6 +186,21 @@
                 </TabItem>
 
                 <TabItem Header="ListBox" Width="150">
+                    <UniformGrid Columns="2" Rows="2">
+                        <ListBox  Margin="5">
+                            <ListBoxItem Content="ListBoxItem 1" />
+                            <ListBoxItem Content="ListBoxItem 2" />
+                            <ListBoxItem Content="ListBoxItem 3" />
+                            <ListBoxItem Content="ListBoxItem 4" />
+                        </ListBox>
+
+                        <ListBox Margin="5">
+                            <ListBoxItem Content="ListBoxItem 1" />
+                            <ListBoxItem Content="ListBoxItem 2" />
+                            <ListBoxItem Content="ListBoxItem 3" />
+                            <ListBoxItem Content="ListBoxItem 4" />
+                        </ListBox>
+                    </UniformGrid>
 
                 </TabItem>
 
@@ -199,14 +229,14 @@
                 </TabItem>
                 <TabItem Header="Combox" Width="150">
                     <UniformGrid Columns="2" Rows="2">
-                        <ComboBox Width="200" Height="60">
+                        <ComboBox Width="200" Height="60"  Style="{StaticResource BaseComBoxStyle}">
                             <ComboBoxItem Content="上海" Tag="1"></ComboBoxItem>
                             <ComboBoxItem Content="北京" Tag="2"></ComboBoxItem>
                             <ComboBoxItem Content="天津" Tag="3"></ComboBoxItem>
                             <ComboBoxItem Content="广州" Tag="4"></ComboBoxItem>
                         </ComboBox>
 
-                        <ComboBox Width="200" Height="60">
+                        <ComboBox Width="200" Height="60" Style="{StaticResource RoundedCardComBoxStyle}">
                             <ComboBoxItem Content="上海" Tag="1"></ComboBoxItem>
                             <ComboBoxItem Content="北京" Tag="2"></ComboBoxItem>
                             <ComboBoxItem Content="天津" Tag="3"></ComboBoxItem>

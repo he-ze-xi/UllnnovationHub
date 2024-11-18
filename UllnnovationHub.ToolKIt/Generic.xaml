@@ -10,5 +10,8 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Expander.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Card.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ComboBox.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/UTextBox.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/PasswordBox.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/CheckBox.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
