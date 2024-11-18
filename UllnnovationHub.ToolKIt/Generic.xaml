@@ -9,5 +9,6 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/VerticalSeparator.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Expander.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Card.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ComboBox.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

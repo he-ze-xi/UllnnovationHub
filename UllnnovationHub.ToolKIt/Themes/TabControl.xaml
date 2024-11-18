@@ -3,7 +3,7 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ColorStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
     
-    <Style x:Key="TabItemCyanStyle" TargetType="{x:Type TabItem}">
+    <Style x:Key="BaseTabItemStyle" TargetType="{x:Type TabItem}">
         <Setter Property="FocusVisualStyle" Value="{x:Null}" />
         <Setter Property="attached:Icon.Width" Value="24" />
         <Setter Property="attached:Icon.Height" Value="24" />
@@ -39,7 +39,7 @@
         </Setter>
     </Style>
 
-    <Style x:Key="TabControlStyle" TargetType="{x:Type TabControl}">
+    <Style x:Key="BaseTabControlStyle" TargetType="{x:Type TabControl}">
         <Setter Property="HorizontalContentAlignment" Value="Center" />
         <Setter Property="VerticalContentAlignment" Value="Center" />
         <Setter Property="Background" Value="{StaticResource TransparentColor}" />
@@ -98,6 +98,6 @@
         </Setter>
     </Style>
 
-    <Style x:Key="{x:Type TabControl}" BasedOn="{StaticResource TabControlStyle}" TargetType="{x:Type TabControl}" />
-    <Style x:Key="{x:Type TabItem}" BasedOn="{StaticResource TabItemCyanStyle}" TargetType="{x:Type TabItem}" />
+    <Style x:Key="{x:Type TabControl}" BasedOn="{StaticResource BaseTabControlStyle}" TargetType="{x:Type TabControl}" />
+    <Style x:Key="{x:Type TabItem}" BasedOn="{StaticResource BaseTabItemStyle}" TargetType="{x:Type TabItem}" />
 </ResourceDictionary>
