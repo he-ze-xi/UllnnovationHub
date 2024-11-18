@@ -19,7 +19,7 @@ namespace UllnnovationHub.Samples.ViewModels
 
 		public MainWindowViewModel()
 		{
-
+			
 		}
 
 	}
