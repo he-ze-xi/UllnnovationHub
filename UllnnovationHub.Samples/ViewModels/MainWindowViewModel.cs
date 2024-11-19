@@ -15,7 +15,15 @@ namespace UllnnovationHub.Samples.ViewModels
 			get { return _title; }
 			set { SetProperty(ref _title, value); }
 		}
-		public ICommand GroupBoxButton1Cmd { get; set; }
+
+		#region DateTimePicker控件相关
+		private DateTime _currentDateTime=DateTime.Now;
+		public DateTime CurrentDateTime
+		{
+			get { return _currentDateTime; }
+			set { SetProperty(ref _currentDateTime, value); }
+		}
+		#endregion
 
 		public MainWindowViewModel()
 		{

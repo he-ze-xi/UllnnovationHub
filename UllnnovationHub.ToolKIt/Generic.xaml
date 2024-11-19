@@ -14,5 +14,9 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/PasswordBox.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/CheckBox.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ListBox.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/TreeView.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/TreeViewItem.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/SwitchButton.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/SwitchRadioButton.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
