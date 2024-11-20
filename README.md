@@ -23,7 +23,7 @@ xmlns:UI="clr-namespace:UllnnovationHub.ToolKIt.UI;assembly=UllnnovationHub.Tool
 ```
 
 ### 4.参考资料
-因笔者抱着边学习边开发的的目的，项目部分代码参考整理自以下开发者仓库：
+因笔者抱着边学习边开发的的目的，项目部分代码参考整理自以下开发者仓库，若造成不便请联系本人：
 1. https://github.com/944095635/DMSkin
 2. https://github.com/DinoChan/Kino.Toolkit.Wpf
 3. https://github.com/JamesnetGroup/xamldesign.wpf
