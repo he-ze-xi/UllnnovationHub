@@ -276,7 +276,70 @@
                 </TabItem>
 
                 <TabItem Header="Menu" Width="150">
-
+                    <UniformGrid Columns="2" Rows="2">
+                        <StackPanel>
+                            <Menu IsMainMenu="True" Background="Transparent">
+                                <MenuItem Header="_VSOnline" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Whatever" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                </MenuItem>
+                                <MenuItem Header="_Dashboards" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Overview" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                </MenuItem>
+                                <MenuItem Header="_Code" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Files" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <UI:HorizontolSeparator Width="150"/>
+                                    <MenuItem Header="_Commits" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <UI:HorizontolSeparator Width="150"/>
+                                    <MenuItem Header="_Pushes" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <UI:HorizontolSeparator Width="150"/>
+                                </MenuItem>
+                                <MenuItem Header="_Work" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Backlogs" Style="{StaticResource BaseSubMenuItemStyle}"/>
+                                    <MenuItem Header="_Queries" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <MenuItem Header="_New Work Item" Style="{StaticResource BaseSubMenuItemStyle}">
+                                        <MenuItem Header="_Epic" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Feature" Style="{StaticResource BaseSubMenuItemStyle}"/>
+                                        <MenuItem Header="_Issue" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Task" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Test Case" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_User Story" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    </MenuItem>
+                                    <MenuItem Header="_Bug" Style="{StaticResource BaseSubMenuItemStyle}"/>
+                                </MenuItem>
+                            </Menu>
+                        </StackPanel>
+                        <StackPanel>
+                            <Menu IsMainMenu="True" Background="Transparent">
+                                <MenuItem Header="_VSOnline" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Whatever" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                </MenuItem>
+                                <MenuItem Header="_Dashboards" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Overview" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                </MenuItem>
+                                <MenuItem Header="_Code" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Files" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <UI:HorizontolSeparator />
+                                    <MenuItem Header="_Commits" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <UI:HorizontolSeparator />
+                                    <MenuItem Header="_Pushes" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <UI:HorizontolSeparator />
+                                </MenuItem>
+                                <MenuItem Header="_Work" Style="{StaticResource BaseTopMenuItemStyle}">
+                                    <MenuItem Header="_Backlogs" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <MenuItem Header="_Queries" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    <MenuItem Header="_New Work Item" Style="{StaticResource BaseSubMenuItemStyle}">
+                                        <MenuItem Header="_Epic" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Feature" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Issue" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Task" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_Test Case" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                        <MenuItem Header="_User Story" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                    </MenuItem>
+                                    <MenuItem Header="_Bug" Style="{StaticResource BaseSubMenuItemStyle}" />
+                                </MenuItem>
+                            </Menu>
+                        </StackPanel>
+                    </UniformGrid>
                 </TabItem>
 
                 <TabItem Header="Slider" Width="150">
