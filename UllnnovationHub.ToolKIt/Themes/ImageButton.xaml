@@ -4,6 +4,7 @@
 
     <Style x:Key="ImgButton" TargetType="{x:Type local:ImageButton}">
         <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Focusable" Value="False" />
         <Setter Property="Cursor" Value="Arrow" />
         <Setter Property="BorderCornerRadius" Value="10" />
         <Setter Property="Template">

@@ -353,7 +353,7 @@
                 <TabItem Header="Slider" Width="150">
                     <UniformGrid Rows="2" Columns="2">
                         <StackPanel>
-                            <Slider Style="{StaticResource SliderStyle}"/>
+                            <Slider Style="{StaticResource SliderStyle}" />
                         </StackPanel>
                     </UniformGrid>
                 </TabItem>
