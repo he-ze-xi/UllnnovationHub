@@ -7,11 +7,19 @@
 	  <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Image\SwitchButton.png" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UllnnovationHub.ToolKIt">
       <HintPath>..\RefDll\UllnnovationHub.ToolKIt.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\SwitchButton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 </Project>

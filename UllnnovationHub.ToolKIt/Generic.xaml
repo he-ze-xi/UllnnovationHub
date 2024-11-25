@@ -19,5 +19,7 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/SwitchButton.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/SwitchRadioButton.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/MenuItem.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ImageButton.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Slider.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
