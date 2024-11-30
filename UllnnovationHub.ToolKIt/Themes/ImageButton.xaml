@@ -28,4 +28,32 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+    <Style x:Key="ImgButtonWithoutTextContent" TargetType="{x:Type local:ImageButton}">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ImageButton}">
+                    <Border x:Name="borderWithoutTextContent" CornerRadius="30" Width="50" Height="50" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" UseLayoutRounding="True">
+                            <Path x:Name="pathWithoutTextContent" Data="M 0,100  Q 35,140  54,190 Q 100,45  168,0 S 90,40  50,150 Q 40,136 0,100 Z" Fill="black" Stretch="Fill" SnapsToDevicePixels="True" StrokeThickness="2" Stroke="LimeGreen" UseLayoutRounding="True" VerticalAlignment="Center" Height="20" Width="20"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="borderWithoutTextContent" Property="Background" Value="{Binding MouseOverBackground, RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type local:ImageButton}}}" />
+                            <Setter TargetName="pathWithoutTextContent" Property="Width" Value="25" />
+                            <Setter TargetName="pathWithoutTextContent" Property="Height" Value="25"/>
+                            <Setter TargetName="borderWithoutTextContent" Property="BorderThickness" Value="2"/>
+                            <Setter TargetName="borderWithoutTextContent" Property="BorderBrush" Value="orange"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="borderWithoutTextContent" Property="Background" Value="{Binding MousePressedBackground, RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type local:ImageButton}}}" />
+                            <Setter TargetName="pathWithoutTextContent" Property="Stroke" Value="Red"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
 </ResourceDictionary>

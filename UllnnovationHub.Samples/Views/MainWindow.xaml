@@ -347,6 +347,9 @@
                         <StackPanel>
                             <UI:ImageButton  Grid.Row="0" Grid.Column="0" Orientation="Horizontal" ImgSource="/Image/SwitchButton.png" TextContent="电源开关" ImgWidth="32" ImgHeight="30" ImgTextMargin="4"  Style="{StaticResource ImgButton}" MouseOverBackground="LightBlue" MousePressedBackground="LightYellow"/>
                         </StackPanel>
+                        <StackPanel>
+                            <UI:ImageButton Grid.Row="0" Grid.Column="1" Style="{StaticResource ImgButtonWithoutTextContent}" MouseOverBackground="LightGoldenrodYellow" MousePressedBackground="LightYellow" Background="AntiqueWhite" />
+                        </StackPanel>
                     </UniformGrid>
                 </TabItem>
 
