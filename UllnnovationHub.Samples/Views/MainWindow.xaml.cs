@@ -12,4 +12,5 @@ namespace UllnnovationHub.Samples.Views
 			InitializeComponent();
 		}
 	}
+
 }

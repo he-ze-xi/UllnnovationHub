@@ -1,0 +1,23 @@
+<Grid>
+    <DataGrid Margin="20" 
+              ItemsSource="{Binding People}"
+              AutoGenerateColumns="False">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="ID" 
+                              Binding="{Binding Id}" 
+                              Width="60"/>
+            <DataGridTextColumn Header="姓名" 
+                              Binding="{Binding Name}" 
+                              Width="100"/>
+            <DataGridTextColumn Header="年龄" 
+                              Binding="{Binding Age}" 
+                              Width="60"/>
+            <DataGridTextColumn Header="部门" 
+                              Binding="{Binding Department}" 
+                              Width="120"/>
+            <DataGridTextColumn Header="职位" 
+                              Binding="{Binding Position}" 
+                              Width="*"/>
+        </DataGrid.Columns>
+    </DataGrid>
+</Grid> 

@@ -21,5 +21,8 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/MenuItem.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ImageButton.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Slider.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ListView.xaml" />
+        <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/DataGrid.xaml" />
+
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

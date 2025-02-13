@@ -215,7 +215,7 @@
                             <ListBoxItem Content="ListBoxItem 4" />
                         </ListBox>
 
-                        <ListBox Margin="5">
+                        <ListBox Margin="5" IsEnabled="False">
                             <ListBoxItem Content="ListBoxItem 1" />
                             <ListBoxItem Content="ListBoxItem 2" />
                             <ListBoxItem Content="ListBoxItem 3" />
@@ -354,15 +354,43 @@
                     </UniformGrid>
                 </TabItem>
 
-                <TabItem Header="ScrollViewer" Width="150">
-                    
-                </TabItem>
                 <TabItem Header="ListView" Width="150">
+                    <UniformGrid Columns="2">
+                        <ListView Width="200" Height="300" IsEnabled="False">
+                            <ListViewItem Content="ListViewItem1" />
+                            <ListViewItem Content="ListViewItem2" />
+                            <ListViewItem Content="ListViewItem3" />
+                            <ListViewItem Content="ListViewItem4" />
+                            <ListViewItem Content="ListViewItem5" />
+                            <ListViewItem Content="ListViewItem6" />
+                            <ListViewItem Content="ListViewItem7" />
+                        </ListView>
+
+                        <ListView Width="200" Height="300">
+                            <ListViewItem Content="ListViewItem1" />
+                            <ListViewItem Content="ListViewItem2" />
+                            <ListViewItem Content="ListViewItem3" />
+                            <ListViewItem Content="ListViewItem4" />
+                            <ListViewItem Content="ListViewItem5" />
+                            <ListViewItem Content="ListViewItem6" />
+                            <ListViewItem Content="ListViewItem7" />
+                        </ListView>
+                    </UniformGrid>
 
                 </TabItem>
 
                 <TabItem Header="DataGrid" Width="150">
-
+                    <Grid>
+                        <DataGrid Margin="20" ItemsSource="{Binding People}" AutoGenerateColumns="False" GridLinesVisibility="Horizontal">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="Auto" />
+                                <DataGridTextColumn Header="姓名" Binding="{Binding Name}" Width="Auto" />
+                                <DataGridTextColumn Header="年龄" Binding="{Binding Age}" Width="Auto" />
+                                <DataGridTextColumn Header="部门" Binding="{Binding Department}" Width="Auto" />
+                                <DataGridTextColumn Header="职位" Binding="{Binding Position}" Width="Auto" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
                 </TabItem>
                 <TabItem Header="MessageBox" Width="150">
 
