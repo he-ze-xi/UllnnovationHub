@@ -6,6 +6,7 @@ using System.Windows;
 using System.Windows.Input;
 using UllnnovationHub.Samples.Models;
 using UllnnovationHub.ToolKIt;
+using UllnnovationHub.ToolKIt.UI;
 
 namespace UllnnovationHub.Samples.ViewModels
 {
@@ -36,6 +37,8 @@ namespace UllnnovationHub.Samples.ViewModels
 		}
 		#endregion
 
+		public ICommand Cmd_TestMessageBox01 { get; set; }
+
 		public MainWindowViewModel()
 		{
 			// 初始化示例数据
@@ -52,7 +55,13 @@ namespace UllnnovationHub.Samples.ViewModels
 			new PersonModel { Id = 9, Name = "郑十一", Age = 26, Department = "研发部", Position = "前端开发工程师" },
 			new PersonModel { Id = 10, Name = "王十二", Age = 33, Department = "人事部", Position = "人力资源主管" }
 		};
+
+			Cmd_TestMessageBox01 = new DelegateCommand(TestMessageBox01);
 		}
 
+		private void TestMessageBox01()
+		{
+
+		}
 	}
 }

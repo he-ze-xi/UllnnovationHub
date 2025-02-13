@@ -23,6 +23,5 @@
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/Slider.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ListView.xaml" />
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/DataGrid.xaml" />
-
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

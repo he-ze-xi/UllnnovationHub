@@ -13,6 +13,9 @@
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\UllnnovationHub.ToolKIt\UllnnovationHub.ToolKIt.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UllnnovationHub.ToolKIt">
       <HintPath>..\RefDll\UllnnovationHub.ToolKIt.dll</HintPath>
     </Reference>
