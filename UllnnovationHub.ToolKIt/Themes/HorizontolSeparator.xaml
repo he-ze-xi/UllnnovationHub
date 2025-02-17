@@ -1,24 +1,18 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-                    xmlns:local="clr-namespace:UllnnovationHub.ToolKIt.UI">
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:UllnnovationHub.ToolKIt.UI">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/UllnnovationHub.ToolKIt;component/Themes/ColorStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
-    <!--横向分割线-->
+    <!--  横向分割线  -->
     <Style TargetType="local:HorizontolSeparator">
         <Setter Property="UseLayoutRounding" Value="True" />
         <Setter Property="SnapsToDevicePixels" Value="True" />
         <Setter Property="Height" Value="1" />
-        <Setter Property="Margin" Value="0 0 0 0" />
+        <Setter Property="Margin" Value="0,0,0,0" />
         <Setter Property="Background" Value="{StaticResource GrayColor}" />
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="local:HorizontolSeparator">
-                    <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            UseLayoutRounding="{TemplateBinding UseLayoutRounding}" 
-                            SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" UseLayoutRounding="{TemplateBinding UseLayoutRounding}" />
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
